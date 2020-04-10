@@ -1,7 +1,7 @@
 import api from './api'
 
-function getEvents() {
-  return api.get('/events')
+function getEvents(perPage, page) {
+  return api.get(`/events?_limit=${perPage}&_page=${page}`)
 }
 
 function getEvent(id) {
