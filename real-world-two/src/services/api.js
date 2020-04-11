@@ -3,7 +3,12 @@ import NProgress from 'nprogress'
 
 const apiClient = axios.create({
   baseURL: 'http://localhost:3000',
-  withCredentials: false
+  withCredentials: false,
+  headers: {
+    Accept: 'application/json',
+    'Content-Type': 'application/json'
+  },
+  timeout: 10000
 })
 
 apiClient.interceptors.request.use(config => {
