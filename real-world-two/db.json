@@ -107,6 +107,24 @@
       "date": "2020-04-04T01:14:00.000Z",
       "time": "3:00",
       "attendees": []
+    },
+    {
+      "id": 3052563,
+      "user": {
+        "id": "abc123",
+        "name": "Wagner"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Wagner"
+      },
+      "title": "testse",
+      "description": "tests",
+      "location": "334",
+      "date": "2020-04-02T02:30:00.000Z",
+      "time": "1:00",
+      "attendees": []
     }
   ]
 }
