@@ -125,6 +125,24 @@
       "date": "2020-04-02T02:30:00.000Z",
       "time": "1:00",
       "attendees": []
+    },
+    {
+      "id": 6127949,
+      "user": {
+        "id": "abc123",
+        "name": "Wagner"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Wagner"
+      },
+      "title": "",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
