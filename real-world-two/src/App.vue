@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <NavBar />
-    <NotificationContainer />
-    <router-view :key="$route.fullPath" />
+    <NavBar/>
+    <NotificationContainer/>
+    <router-view :key="$route.fullPath"/>
   </div>
 </template>
 
@@ -241,5 +241,13 @@ select:focus::ms-value {
 }
 select::ms-expand {
   opacity: 0;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.error {
+  border: 1px solid red;
 }
 </style>

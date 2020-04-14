@@ -4,9 +4,12 @@ import router from './router'
 import store from './store'
 import BaseIcon from '@/components/BaseIcon.vue'
 import 'nprogress/nprogress.css'
+import Vuelidate from 'vuelidate'
 
 // Global components
 Vue.component('BaseIcon', BaseIcon)
+
+Vue.use(Vuelidate)
 
 Vue.config.productionTip = false
 
